@@ -10,7 +10,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "https://YOUR-FIREBASE-APP.web.app",
+        "https://ai-pipelines-auto-darwesh.web.app/",
     ],
     allow_methods=["*"],
     allow_headers=["*"],
